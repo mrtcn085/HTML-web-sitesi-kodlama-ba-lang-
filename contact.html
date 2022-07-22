@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | MERTEZ</title>
+    <script language="JavaScript">
+
+        var left="[";
+        var right="]";
+        var msg="İletişim | Mertez   ";
+        var speed=300;
+         
+        function scroll_title() {
+                document.title=left+msg+right;
+                msg=msg.substring(1,msg.length)+msg.charAt(0);
+                setTimeout("scroll_title()",speed);
+        }
+        scroll_title();
+         
+        </script>
+</head>
+<body>
+        <!-- Navbar - Start -->
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">Hakkımızda</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">İletişim</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Navbar - End -->
+
+        <!-- Content - Start -->
+        <section>
+            <!-- Articles - Start -->
+            <article>,
+                <h2>İletişim</h2>
+                <img src="https://picsum.photos/id/3/600/300" alt="Yazı 1">
+                <p>
+                    <strong>Adresler</strong>
+                </p>
+                <address>
+                   <strong>
+                    Arhavi Artvin <br>
+                    Boğaz İçi Mahallesi Uzayan Sokak </br>
+                    No:5
+                   </strong> 
+                </address>
+                <ul>
+                    <li>Telefon:   <a href="0(212)-222-222">0(212)-222-222</a></li>
+                    <li>Mail:  <a href="info@mertez.destek">info@mertez.destek</a></li>
+                </ul>
+                <hr>
+            </article>
+           
+            <!-- Artciles - End -->
+        <!-- Content - End -->
+        </section>
+        <!-- Footer - Start -->
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">Hakkımızda</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">İletişim</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <!-- Foooter - End -->
+        
+    </body>
+</html>

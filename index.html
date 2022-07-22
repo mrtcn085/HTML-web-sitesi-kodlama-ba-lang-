@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERTEZ</title>
+    <script language="JavaScript">
+
+        var left="[";
+        var right="]";
+        var msg="Mertez TİC LTD ŞTİ ";
+        var speed=300;
+         
+        function scroll_title() {
+                document.title=left+msg+right;
+                msg=msg.substring(1,msg.length)+msg.charAt(0);
+                setTimeout("scroll_title()",speed);
+        }
+        scroll_title();
+         
+        </script>
+</head>
+<body>
+        <!-- Navbar - Start -->
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">Hakkımızda</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">İletişim</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Navbar - End -->
+
+        <!-- Content - Start -->
+        <section>
+            <!-- Articles - Start -->
+            <article>,
+                <h2>1. Yazı</h2>
+                <img height="400" src="img/kurt-cotoaga-MP6FMO8khn4-unsplash.jpg" alt="Yazı 1">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, hic.</p>
+                <ol>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Nam, impedit. At!</li>
+                    <li>Assumenda, architecto ullam?</li>
+                    <li>Deleniti, aspernatur doloribus?</li>
+                </ol>
+                <hr>
+            </article>
+            <article>,
+                <h2>2. Yazı</h2>
+                <img src="https://picsum.photos/id/27/600/300" alt="Yazı 1">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, hic.</p>
+                <ul>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Porro, deserunt aspernatur.</li>
+                    <li>Optio, aperiam aliquid?</li>
+                    <li>Suscipit, atque dolorem!</li>
+                </ul>
+                <hr>
+            </article>
+            <article>,
+                <h2>3. Yazı</h2>
+                <img src="https://picsum.photos/id/217/600/300" alt="Yazı 1">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, hic.</p>
+                <hr>
+            </article>
+            <!-- Artciles - End -->
+        <!-- Content - End -->
+        </section>
+        <!-- Footer - Start -->
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">Hakkımızda</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">İletişim</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <!-- Foooter - End -->
+        
+    </body>
+</html>

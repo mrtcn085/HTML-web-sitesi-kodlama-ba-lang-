@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAKKIMIZDA | MERTEZ</title>
+    <script language="JavaScript">
+
+        var left="[";
+        var right="]";
+        var msg="Hakkımızda | Mertez   ";
+        var speed=300;
+         
+        function scroll_title() {
+                document.title=left+msg+right;
+                msg=msg.substring(1,msg.length)+msg.charAt(0);
+                setTimeout("scroll_title()",speed);
+        }
+        scroll_title();
+         
+        </script>
+</head>
+<body>
+        <!-- Navbar - Start -->
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">Hakkımızda</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">İletişim</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Navbar - End -->
+
+        <!-- Content - Start -->
+        <section>
+            <!-- Articles - Start -->
+            <article>,
+                <h2>Hakkımızda</h2>
+                <img src="https://picsum.photos/id/31/600/300" alt="Yazı 1">
+                <p>Her Ülkeye İhracatta 1. Sıradayız.Bizi tercih etmeniz en doğru karar.</p>
+                <ol>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Nam, impedit. At!</li>
+                    <li>Assumenda, architecto ullam?</li>
+                    <li>Deleniti, aspernatur doloribus?</li>
+                </ol>
+                <hr>
+            </article>
+           
+            <!-- Artciles - End -->
+        <!-- Content - End -->
+        </section>
+        <!-- Footer - Start -->
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">Hakkımızda</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">İletişim</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <!-- Foooter - End -->
+        
+    </body>
+</html>
